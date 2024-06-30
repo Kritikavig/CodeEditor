@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      '@monaco-editor/react': require.resolve('@monaco-editor/react')
+      '@monaco-editor/react': '@monaco-editor/react'
     }
   }
 });
